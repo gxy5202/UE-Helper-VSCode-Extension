@@ -1,0 +1,2781 @@
+[
+	{
+		"componentName": "查询组件",
+		"bindFields": []
+	},
+	{
+		"componentName": "文本编辑",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "复选框",
+		"bindFields": [
+			{
+				"bindFieldName": "选项",
+				"label": "选项",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "单选框",
+		"bindFields": [
+			{
+				"bindFieldName": "选项",
+				"label": "选项",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "文字控件",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "开关",
+		"bindFields": []
+	},
+	{
+		"componentName": "按钮组件",
+		"bindFields": []
+	},
+	{
+		"componentName": "下拉列表",
+		"bindFields": [
+			{
+				"bindFieldName": "选项",
+				"label": "选项",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "超链接",
+		"bindFields": []
+	},
+	{
+		"componentName": "层级树",
+		"bindFields": [
+			{
+				"bindFieldName": "选项",
+				"label": "选项",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "查询容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "输入范围",
+		"bindFields": []
+	},
+	{
+		"componentName": "面包屑导航",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 3
+			}
+		]
+	},
+	{
+		"componentName": "时钟控件",
+		"bindFields": []
+	},
+	{
+		"componentName": "时间控件",
+		"bindFields": []
+	},
+	{
+		"componentName": "多行文本",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "文本段落",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "递归树",
+		"bindFields": [
+			{
+				"bindFieldName": "节点",
+				"label": "节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "父节点",
+				"label": "父节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "名称",
+				"label": "名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "时间轴",
+		"bindFields": [
+			{
+				"bindFieldName": "节点",
+				"label": "节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "相对时间",
+		"bindFields": []
+	},
+	{
+		"componentName": "tab容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "容器组件",
+		"bindFields": []
+	},
+	{
+		"componentName": "图片",
+		"bindFields": []
+	},
+	{
+		"componentName": "胶片容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "内部框架",
+		"bindFields": []
+	},
+	{
+		"componentName": "数据源组件",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "下载控件",
+		"bindFields": []
+	},
+	{
+		"componentName": "图像矩阵",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "日历组件",
+		"bindFields": [
+			{
+				"bindFieldName": "时间",
+				"label": "时间",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "导航容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "全景图",
+		"bindFields": []
+	},
+	{
+		"componentName": "图片轮播",
+		"bindFields": []
+	},
+	{
+		"componentName": "打印按钮",
+		"bindFields": []
+	},
+	{
+		"componentName": "轮播容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "tips容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "实时视频",
+		"bindFields": [
+			{
+				"bindFieldName": "URL",
+				"label": "URL",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION,MEASURE",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "排序",
+				"label": "排序",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "DIMENSION,MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "3d轮播",
+		"bindFields": []
+	},
+	{
+		"componentName": "遥控器容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "矩形",
+		"bindFields": []
+	},
+	{
+		"componentName": "线条",
+		"bindFields": []
+	},
+	{
+		"componentName": "贝塞尔曲线",
+		"bindFields": []
+	},
+	{
+		"componentName": "边框",
+		"bindFields": []
+	},
+	{
+		"componentName": "画笔",
+		"bindFields": []
+	},
+	{
+		"componentName": "装饰",
+		"bindFields": []
+	},
+	{
+		"componentName": "矢量图表",
+		"bindFields": []
+	},
+	{
+		"componentName": "天气",
+		"bindFields": [
+			{
+				"bindFieldName": "天气类型",
+				"label": "天气类型",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "温度",
+				"label": "温度",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true
+			},
+			{
+				"bindFieldName": "最低温度",
+				"label": "最低温度",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true
+			},
+			{
+				"bindFieldName": "最高温度",
+				"label": "最高温度",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true
+			},
+			{
+				"bindFieldName": "风力等级",
+				"label": "风力等级",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true
+			}
+		]
+	},
+	{
+		"componentName": "webgl容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "条形图",
+		"bindFields": [
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "混合图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴-左",
+				"label": "Y轴-左",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "Y轴-右",
+				"label": "Y轴-右",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "柱状堆积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "条形堆积图",
+		"bindFields": [
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "瀑布图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "时序柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "轮播维度",
+				"label": "轮播维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "笛卡尔坐标热力图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "权重",
+				"label": "权重",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "多维条形图",
+		"bindFields": [
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "山峰柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "象形柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "环形柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "双向条形图",
+		"bindFields": [
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "左X轴",
+				"label": "左X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "右X轴",
+				"label": "右X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "动态水球图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "水球图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "漏斗图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "饼图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "雷达图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "南丁格尔玫瑰图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "嵌套饼图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "仪表盘",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "环形组",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "进度条",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "嵌套层级饼图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "动效饼图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "进度条组",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "最大值",
+				"label": "最大值",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "极坐标玫瑰图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "面积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "折线图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "折线堆积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "面积堆积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "字符云",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "交叉表",
+		"bindFields": [
+			{
+				"bindFieldName": "行表头",
+				"label": "行表头",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "列表头",
+				"label": "列表头",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "指标",
+				"label": "指标",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "动态看板",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "动态词云图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "数字显示",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "数字翻牌器",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "指标卡",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "粒子数字",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "统计表",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "新闻列表",
+		"bindFields": []
+	},
+	{
+		"componentName": "倒计时计数器",
+		"bindFields": []
+	},
+	{
+		"componentName": "旭日图",
+		"bindFields": [
+			{
+				"bindFieldName": "节点名称",
+				"label": "节点名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "父节点",
+				"label": "父节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "权重",
+				"label": "权重",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "填充气泡图",
+		"bindFields": [
+			{
+				"bindFieldName": "节点名称",
+				"label": "节点名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "父节点",
+				"label": "父节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "权重",
+				"label": "权重",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "大规模散点图",
+		"bindFields": [
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "粒度",
+				"label": "粒度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "标准气泡图",
+		"bindFields": [
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "粒度",
+				"label": "粒度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "大小",
+				"label": "大小",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "力导图",
+		"bindFields": [
+			{
+				"bindFieldName": "节点",
+				"label": "节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "父节点",
+				"label": "父节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "节点名称",
+				"label": "节点名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "父节点名称",
+				"label": "父节点名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "节点类型",
+				"label": "节点类型",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "关系",
+				"label": "关系",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "权重",
+				"label": "权重",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "热词气泡图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "雷达扫描",
+		"bindFields": [
+			{
+				"bindFieldName": "层级名称",
+				"label": "层级名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "事件内容",
+				"label": "事件内容",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "DIMENSION,MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "散点图",
+		"bindFields": [
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "粒度",
+				"label": "粒度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "大小",
+				"label": "大小",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "饱和度",
+				"label": "饱和度",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "桑基图",
+		"bindFields": [
+			{
+				"bindFieldName": "源节点",
+				"label": "源节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "目标节点",
+				"label": "目标节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "权重",
+				"label": "权重",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "和弦图",
+		"bindFields": [
+			{
+				"bindFieldName": "源节点",
+				"label": "源节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "目标节点",
+				"label": "目标节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "连通图",
+		"bindFields": [
+			{
+				"bindFieldName": "源节点",
+				"label": "源节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "目标节点",
+				"label": "目标节点",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "源节点名称",
+				"label": "源节点名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "目标节点名称",
+				"label": "目标节点名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "权重",
+				"label": "权重",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "迁移地图",
+		"bindFields": [
+			{
+				"bindFieldName": "起点（区域名称",
+				"label": "起点（区域名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "显示名称",
+				"label": "显示名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "经度",
+				"label": "经度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "纬度）",
+				"label": "纬度）",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "\n终点（区域名称",
+				"label": "\n终点（区域名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "显示名称",
+				"label": "显示名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "经度",
+				"label": "经度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "纬度）",
+				"label": "纬度）",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "起点度量",
+				"label": "起点度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "终点度量",
+				"label": "终点度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "分布地图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "热力地图",
+		"bindFields": [
+			{
+				"bindFieldName": "显示名称",
+				"label": "显示名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "经度",
+				"label": "经度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "纬度）",
+				"label": "纬度）",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "标注地图",
+		"bindFields": [
+			{
+				"bindFieldName": "区域名称",
+				"label": "区域名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "显示名称",
+				"label": "显示名称",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "经度",
+				"label": "经度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "纬度",
+				"label": "纬度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "SVG地图",
+		"bindFields": []
+	},
+	{
+		"componentName": "2.5D面积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D柱状堆积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D漏斗图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D仪表盘",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D单值组件",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D混合图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴-左",
+				"label": "Y轴-左",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			},
+			{
+				"bindFieldName": "Y轴-右",
+				"label": "Y轴-右",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D饼图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "2.5D环形图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "自定义底盘",
+		"bindFields": []
+	},
+	{
+		"componentName": "数字转盘",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			}
+		]
+	},
+	{
+		"componentName": "3D高斯地图",
+		"bindFields": [
+			{
+				"bindFieldName": "经度",
+				"label": "经度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "纬度",
+				"label": "纬度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "时间",
+				"label": "时间",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "高度",
+				"label": "高度",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "面积",
+				"label": "面积",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "数据魔方",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D散点图",
+		"bindFields": [
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "粒度",
+				"label": "粒度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Z轴",
+				"label": "Z轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "多维柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "粒度",
+				"label": "粒度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Z轴",
+				"label": "Z轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D地球",
+		"bindFields": []
+	},
+	{
+		"componentName": "时间河流",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 2
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "立方标题",
+		"bindFields": []
+	},
+	{
+		"componentName": "3D容器",
+		"bindFields": []
+	},
+	{
+		"componentName": "W3D",
+		"bindFields": []
+	},
+	{
+		"componentName": "3D柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D山峰柱状图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D漏斗图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D面积图",
+		"bindFields": [
+			{
+				"bindFieldName": "X轴",
+				"label": "X轴",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "图例",
+				"label": "图例",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"max": 1
+			},
+			{
+				"bindFieldName": "Y轴",
+				"label": "Y轴",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D饼图",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	},
+	{
+		"componentName": "3D底盘",
+		"bindFields": [
+			{
+				"bindFieldName": "维度",
+				"label": "维度",
+				"suggestDragMsg": "建议拖拽维度至此处",
+				"acceptType": "DIMENSION",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			},
+			{
+				"bindFieldName": "度量",
+				"label": "度量",
+				"suggestDragMsg": "建议拖拽度量至此处",
+				"acceptType": "MEASURE",
+				"dragFlg": true,
+				"min": 1,
+				"max": 1
+			}
+		]
+	}
+]

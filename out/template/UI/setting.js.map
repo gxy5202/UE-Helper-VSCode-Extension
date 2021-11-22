@@ -1,0 +1,1 @@
+{"version":3,"file":"setting.js","sourceRoot":"","sources":["../../../src/template/UI/setting.ts"],"names":[],"mappings":";;AAAA;;GAEG;AACH,+BAA8B;AAE9B,MAAM,EAAE,IAAI,EAAE,GAAG,aAAM,CAAC;AAExB,SAAwB,aAAa,CAAC,SAAS;IAC3C,MAAM,MAAM,GAAG,SAAS,CAAC,SAAS,EAAE,CAAC;IACrC,MAAM,EAAE,MAAM,EAAE,GAAG,MAAM,CAAC,OAAO,CAAC;IAElC,OAAO,EAAE,CAAC;AACd,CAAC;AALD,gCAKC"}
